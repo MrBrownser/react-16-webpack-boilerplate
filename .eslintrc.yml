@@ -1,0 +1,46 @@
+env:
+  browser: true
+  es6: true
+  node: true
+extends: 'eslint:recommended'
+parser: babel-eslint
+parserOptions:
+  ecmaFeatures:
+    jsx: true
+  ecmaVersion: 2018
+  sourceType: 'module'
+plugins:
+  - react
+rules:
+  ### Generic ###
+  indent:
+    - warn
+    - 2
+    - SwitchCase: 1
+  linebreak-style:
+    - error
+    - unix
+  quotes:
+    - error
+    - single
+  jsx-quotes:
+    - error
+    - prefer-double
+  semi:
+    - warn
+    - always
+  no-unused-vars: warn
+  no-console:
+    - warn
+    - allow: ['error', 'warn']
+  eol-last:
+    - warn
+    - always
+  object-curly-spacing:
+    - error
+    - always
+  ### React ###
+  react/jsx-uses-react: 1
+  react/jsx-uses-vars: 2
+  react/jsx-tag-spacing:
+    - error
