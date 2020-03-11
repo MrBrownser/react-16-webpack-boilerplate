@@ -4,7 +4,7 @@ import './App.css';
 const App = () => {
   return (
     <div className="App">
-      <h1> Hello, Sales Admin! </h1>
+      <h1> Hello, React Developer! </h1>
     </div>
   );
 };

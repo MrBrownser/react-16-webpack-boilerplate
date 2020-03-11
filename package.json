@@ -1,7 +1,7 @@
 {
-  "name": "salesadmin",
+  "name": "react-boilerplate",
   "version": "0.0.1",
-  "description": "Project made for myO stakeholders to manage myOnboarding tenants",
+  "description": "Project made to be used as a bolierplate for POC's and upcoming projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,8 +11,8 @@
     "lint:fix": "eslint 'src/**/*.{js,jsx}' --fix"
   },
   "keywords": [],
-  "author": "Adria Castany <adria.castany@haufe.com>",
-  "license": "ISC",
+  "author": "Adria Castany <castany.adria@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.0",
