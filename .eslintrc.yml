@@ -14,7 +14,7 @@ plugins:
 rules:
   ### Generic ###
   indent:
-    - warn
+    - error
     - 2
     - SwitchCase: 1
   linebreak-style:
@@ -27,14 +27,14 @@ rules:
     - error
     - prefer-double
   semi:
-    - warn
+    - error
     - always
   no-unused-vars: warn
   no-console:
     - warn
     - allow: ['error', 'warn']
   eol-last:
-    - warn
+    - error
     - always
   object-curly-spacing:
     - error
