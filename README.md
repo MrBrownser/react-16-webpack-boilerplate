@@ -20,3 +20,17 @@ $ git clone https://gitlab.haufedev.systems/myonboarding/sales-admin
 $ npm i
 $ npm start
 ```
+
+### Linting
+
+To manually trigger and see linting results just run:
+
+```sh
+$ npm run lint
+```
+
+If you want linting results to be automatically applied, run:
+
+```sh
+$ npm run lint:fix
+```
