@@ -27,3 +27,13 @@ $ npm run lint:fix
 ```
 
 Anyway, and thanks to [husky](https://github.com/typicode/husky), every time you make a commit, linting (without fix) will be triggered and you'll see the results in your console/terminal.
+
+### Creating a production bundle
+
+As easy as:
+
+```sh
+$ npm run build
+```
+
+You will find a freshly created folder dist/ inside the repo folder with all required files.
