@@ -7,10 +7,12 @@ Welcome to my React Boilerplate repo!
 * And the usual following steps:
 
 ```sh
-$ git clone https://github.com/MrBrownser/react-boilerplate
+$ git clone https://github.com/MrBrownser/react-16-webpack-template
 $ npm i
 $ npm start
 ```
+
+App will be automatically bundled and served from [http://localhost:3000/](http://localhost:3000/)
 
 ### Linting
 
